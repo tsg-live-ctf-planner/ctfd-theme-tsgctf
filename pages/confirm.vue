@@ -26,7 +26,7 @@ export default {
 	},
 	head() {
 		return {
-			title: 'Confirmation Step - TSG LIVE! 11 CTF',
+			title: 'Confirmation Step - TSG LIVE! 14 CTF',
 		};
 	},
 	computed: {

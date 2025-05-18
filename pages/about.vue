@@ -3,9 +3,9 @@
 		<h2 class="title"><span>About</span></h2>
 		<h3>Period</h3>
 		<p class="period">
-			<a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20231125T1133&p1=248" target="_blank" rel="noopener noreferrer">11/25 11:33</a>
+			<a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20250524T1303&p1=248" target="_blank" rel="noopener noreferrer">05/24 13:03</a>
 			-
-			<a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20231125T1333&p1=248" target="_blank" rel="noopener noreferrer">11/25 13:33</a>
+			<a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20250524T1533&p1=248" target="_blank" rel="noopener noreferrer">05/24 15:33</a>
 		</p>
 		<p :style="{textAlign: 'center'}">(JST)</p>
 		<h3>Staffs</h3>
@@ -13,10 +13,10 @@
 			<img src="https://old.tsg.ne.jp/images/tsg-logo.png">
 		</a>
 		<p>
-			TSG LIVE! 11 CTF is organized by <a href="https://tsg.ne.jp/" target="_blank" rel="noopener noreferrer">TSG</a>, the official computer society of The
+			TSG LIVE! 14 CTF is organized by <a href="https://tsg.ne.jp/" target="_blank" rel="noopener noreferrer">TSG</a>, the official computer society of The
 			University of Tokyo.
 		</p>
-		<p>Below is the full list of TSG members who contributed to this TSG LIVE! 11 CTF in success. So many thanks!!</p>
+		<p>Below is the full list of TSG members who contributed to this TSG LIVE! 14 CTF in success. So many thanks!!</p>
 		<ul class="members">
 			<li v-for="member in members" :key="member" class="member">
 				<a :href="member.url" target="_blank" rel="noopener noreferrer">{{ member.name }}</a>
@@ -35,7 +35,7 @@ export default {
 	components: {Timeline},
 	head() {
 		return {
-			title: 'About - TSG LIVE! 11 CTF',
+			title: 'About - TSG LIVE! 14 CTF',
 		};
 	},
 	data() {
