@@ -41,11 +41,9 @@ export default {
 	data() {
 		return {
 			members: [
-				{ url: 'https://twitter.com/hakatashi', name: '@hakatashi' },
 				{ url: 'https://twitter.com/iwashiira', name: '@iwashiira' },
 				{ url: 'https://twitter.com/JP3BGY', name: '@JP3BGY' },
-				{ url: 'https://twitter.com/moratorium08', name: '@moratorium08' },
-				{ url: 'https://twitter.com/naan112358', name: '@naan112358' },
+				{ url: 'https://twitter.com/caphosra', name: '@caphosra' },
 				{ url: 'https://twitter.com/sitositositoo', name: 'settyan117' },
 			],
 		};
